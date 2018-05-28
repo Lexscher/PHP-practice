@@ -6,10 +6,23 @@
  ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to AWS Cloud9!
+# Hey guys! 
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+I Just wanted to update this Readme, so that it's not AWS' readme.
+I'm keeping lines 1 through 6 because they're pretty cool.
 
-Happy coding!
+I'm taking a udemy course to learn PHP. Hopefully this will help me 
+with my summer internship.
 
+I didn't expect to learn how to use a cloud environment during this course, so this is great!
+
+
+I may update this readme as time goes on. 
+
+
+#### Thank you for taking an interest in my code!
+
+
+## Best,
+
+##     Alexander
