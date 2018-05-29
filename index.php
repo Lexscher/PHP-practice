@@ -11,31 +11,25 @@
         
         <h1>
                <?php 
-                 // comparison operators
-              /*
-                 == 
-                  >
-                  <
-                  >=
-                  <=
-                  !=
-              */
-               // Escape characters!
-               $my_var = "And then she said to me 
-               \"You're ugly!\"
-               ";
-             echo $my_var;
-             
-             $a  = 1;
-             $b = 9;
-             $c = 4;
-             
-             if ($a > $c ) {
-                 echo $a . " is greater than " . $c;
-             } else {
-                 echo $c . " is greater than " . $a;
-             }
-              
+               
+               $colors = array("Blue", "Red", "green", "Purple");
+               $colors['key'] = "Blue";
+               $colors['key1'] = "Red";
+               $colors['key2'] = "green";
+               $colors['key3'] = "Purple";
+               
+               // to echo out "green"
+              //  echo $colors['key2']
+               
+               $ages['Nandita'] = "25"
+               $ages['Tara'] = "24"
+               $ages['Jordan'] = "23"
+               $ages['Marisa'] = "22"
+               
+               // To get Tara's age
+               echo $ages['Tara']
+               
+               
                 ?>  
         </h1>
        
