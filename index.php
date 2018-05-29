@@ -11,23 +11,11 @@
         
         <h1>
                <?php 
-        // echo out some text~
-                echo "Here's a title!";
-                // Here's my first crack at making variables using PHP!
-                $first_string = "This is my first variable.";
+        
+                $one = 41;
+                $two = 4;
                 
-                $first_number = 17;
-                
-                $second_number = 41;
-                
-                $third_number = $first_number;
-                
-                $fourth_number = $first_number + $second_number;
-                echo "
-                
-                ";
-                
-                echo $fourth_number;
+                echo  $one % $two;
         
                 ?>  
         </h1>
