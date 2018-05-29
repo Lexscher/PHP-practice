@@ -12,10 +12,11 @@
         <h1>
                <?php 
         
-                $one = 41;
-                $two = 4;
+                $one = 35;
+                $two = 5;
                 
-                echo  $one % $two;
+                echo  ++$one;
+                echo " " . --$two;
         
                 ?>  
         </h1>
