@@ -1,0 +1,57 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background-color:  #FD6A6A;
+}
+
+a {
+  color: #42C5FA;
+  text-shadow: 1px 1px 4px black, 0 0 24px #E7B98F, 0 0 5px #FD6A6A;
+  transition-duration: .3s;
+}
+
+a:hover {
+  color: #FFF;
+}
+
+.card-body {
+  background-color: #42C5FA;
+}
+
+.btn-secondary,
+.btn-primary {
+  background-color: RGB(255, 203, 5);
+  transition: .3s;
+}
+
+.btn-secondary:hover,
+.btn-primary:hover {
+  background-color: RGB(255, 203, 5);
+  border: double 4px RGB(240,0,0);
+}
+
+.card-link {
+  text-shadow: none;
+  color: black;
+}
+
+.card-link:hover {
+  color: #FFF;
+  text-shadow: 1px 1px 4px black, 0 0 24px #E7B98F, 0 0 5px #FD6A6A;
+  font-size: 20px;
+}
+
+.card-my-4 {
+  position: fixed;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
