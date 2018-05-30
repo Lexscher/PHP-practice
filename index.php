@@ -58,12 +58,12 @@
         <div class="col-lg-8">
 
           <!-- Title -->
-          <h1 class="mt-4">Post Title</h1>
+          <h1 class="mt-4"><?php echo $site_title ?></h1>
 
           <!-- Author -->
           <p class="lead">
             by
-            <a href="#">Start Bootstrap</a>
+            <a href="https://lexscher.github.io/me/" target="_blank" rel="noopener noreferrer">Alexander S.</a>
           </p>
 
           <hr>
