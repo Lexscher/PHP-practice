@@ -16,15 +16,15 @@
                 $a = 1;
                 
                 while( $a < 100 ){
-                    if ($a % 3 == 0 and $a % 5== 0 ) :
+                    if ($a % 3 == 0 and $a % 5== 0 ) {
                         echo "FizzBuzz";
-                    elseif ($a % 3 == 0) :
+                   } elseif ($a % 3 == 0) {
                         echo "Fizz";
-                     elseif ($a % 5 == 0) :
+                    } elseif ($a % 5 == 0) {
                         echo "Buzz";
-                    else :
+                    } else {
                         echo $a;
-                    endif;
+                    }
                     echo "<br />";
                     $a++;
                 }
