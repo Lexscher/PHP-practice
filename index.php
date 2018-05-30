@@ -13,18 +13,19 @@
                <?php 
                 // For Loops!
                
-               for ($a = 1; $a <= 100; $a++){
-                   if ($a % 3 == 0 and $a % 7 == 0) {
-                       echo "FizzBuzz";
-                   } elseif ($a % 3 == 0) {
-                      echo "Fizz";
-                   } elseif ($a % 7 == 0) {
-                       echo "Buzz";
-                   } else {
-                       echo $a;
-                   }
-                   echo "<br />";
-               }
+              $colors = array("Blue", "Green", "Red", "Silver");
+              $arr_length = count($colors);
+              
+              for($x = 0; $x < $arr_length; $x++) {
+                  if ($colors[$x] == "Silver" ) {
+                      echo "Argent";
+                      echo "<br />";
+                  } else {
+                  echo $colors[$x];
+                  echo "<br />";
+                  }
+              }
+              
                
                 ?>  
         </h1>
