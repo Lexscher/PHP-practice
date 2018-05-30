@@ -21,15 +21,21 @@
                // to echo out "green"
               //  echo $colors['key2']
                
-               $ages['Nandita'] = "25"
-               $ages['Tara'] = "24"
-               $ages['Jordan'] = "23"
-               $ages['Marisa'] = "22"
+               $ages['Nandita'] = "25";
+               $ages['Tara'] = "24";
+               $ages['Jordan'] = "23";
+               $ages['Marisa'] = "22";
                
                // To get Tara's age
-               echo $ages['Tara']
+               echo $ages['Tara'];
                
+               // conditionals!
                
+               if ( $ages['Tara'] > $ages['Jordan']) :
+                   echo $ages['Tara'] . " is older than " . $ages['Jordan'];
+                else :
+                    echo $ages['Jordan'] . " is older than " . $ages['Tara'];
+               endif;
                 ?>  
         </h1>
        
