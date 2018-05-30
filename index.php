@@ -1,32 +1,43 @@
+<?php
+include('variables.php'); 
+include('functions.php'); 
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My php website!</title>
+        <title><?php echo $site_title ?> | About Us</title>
     </head>
 </html>
 
 <body>
     
     <center>
-        
-        <h1>
-               <?php 
-               // line breaks in my code
-                function separate() {
-                   echo  "<br /><br /> ___________________________________ <br /><br />";
-                };
-                // String Manipulattion
-                $bs = "Alexander is the best php programmer on this planet!";
-                $truth = "<i><u>not</u> the</i>";
-                echo str_replace(ucwords("the"), strtoupper($truth), ucwords($bs));
-                separate();
-                echo 
-                str_shuffle($bs);
-                separate();
+       <h1> 
+           <?php 
                 
-                ?>  
-        </h1>
+               echo $site_title;
+               separate();
+                
+           ?>
+       </h1>
+       <h3><?php 
+       echo $sub_title;
+       breakYoLegs();
+       ?></h3>
        
+       <p>
+           The best starter pokemon to choose is Charmander, because charmander
+           evolves into <?php echo $best_pokemon; ?>! Don't you understand?! <br />
+           You'll never lose!
+       </p>
+        
+            
+            
+                
+                
+
+ 
     </center>
     
 </body>
