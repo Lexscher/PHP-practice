@@ -11,22 +11,13 @@
         
         <h1>
                <?php 
-                // For Loops!
-               
-              $colors = array("Blue", "Green", "Red", "Silver");
-              $arr_length = count($colors);
+                // Functions
               
-              for($x = 0; $x < $arr_length; $x++) {
-                  if ($colors[$x] == "Silver" ) {
-                      echo "Argent";
-                      echo "<br />";
-                  } else {
-                  echo $colors[$x];
-                  echo "<br />";
-                  }
-              }
-              
+                function doggo($breed, $age) {
+                    echo "The dog is a " . $breed . " that is " . $age . " years old!";
+                }
                
+               doggo("husky", "12");
                 ?>  
         </h1>
        
