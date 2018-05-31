@@ -17,9 +17,17 @@ with my summer internship.
 I didn't expect to learn how to use a cloud environment during this course, so this is great!
 
 
-I may update this readme as time goes on. 
+### Okay guys, I've finished the course!
+
+###### Here are a couple of screenshots of my work:
 
 
+![Pokemon University](https://i.imgur.com/TBu8qdd.png)
+
+
+![Pokemon University](https://i.imgur.com/wPhb3UP.png)
+
+-----------------------
 #### Thank you for taking an interest in my code!
 
 
